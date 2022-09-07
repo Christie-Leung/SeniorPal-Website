@@ -15,7 +15,8 @@ function Home() {
                     display: "flex",
                     flexDirection: "column",
                     overflowY: "scroll",
-                    alignItems: "center"
+                    alignItems: "center",
+                    placeContent: "center"
                 }}>
                     <div style={{
                         paddingTop: "2%",

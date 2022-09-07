@@ -7,7 +7,7 @@ function Home() {
     let inDev = true;
     let mobile = false;
 
-    if (isMobile) {
+    if (!isMobile) {
         return (
             <>
                 <div className={"window-container"} style={{
@@ -22,13 +22,14 @@ function Home() {
                         paddingLeft: "5%",
                         paddingRight: "5%",
                         display: "flex",
-                        alignItems: "center"
+                        alignItems: "center",
+                        height: "fit-content"
                     }}>
                         <text style={{
                             fontSize: "2vw",
                             fontStyle: "normal",
                             fontWeight: "300",
-                            lineHeight: "7vh",
+                            lineHeight: "4vw",
                             padding: "inherit"
                         }}>
                             Hello! <br/>

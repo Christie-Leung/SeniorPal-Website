@@ -7,7 +7,7 @@ function Home() {
     let inDev = true;
     let mobile = false;
 
-    if (!isMobile) {
+    if (isMobile) {
         return (
             <>
                 <div className={"window-container"} style={{

@@ -45,7 +45,7 @@ function Home() {
                         alignItems: "center",
                         justifyContent: "center"
                     }}>
-                        <img src={"./Logo.png"} alt={"Logo"} style={{
+                        <img src={"./static/images/Logo.png"} alt={"Logo"} style={{
                             height: "75vw",
                             width: "75vw",
                             paddingTop: "5%",
@@ -80,7 +80,7 @@ function Home() {
                                 alignItems: "center",
                                 justifyContent: "center"
                             }}>
-                                <img src={"./Logo.png"} alt={"Logo"} style={{
+                                <img src={"./static/images/Logo.png"} alt={"Logo"} style={{
                                     height: "75vh",
                                     width: "75vh",
                                     paddingTop: "5%",

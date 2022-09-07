@@ -1,11 +1,10 @@
 //import {useState} from "react";
-//import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import './Home.css'
 import {isMobile} from "react-device-detect";
 
 function Home() {
-    let inDev = true;
-    let mobile = false;
+    const inDev = true;
 
     if (isMobile) {
         return (
@@ -114,16 +113,29 @@ function Home() {
                                 </text>
                             </div>
                         </div> : 
-                <div className={"window-container"} style={{backgroundColor: "#F7F2F3"}}>
-                    <img className={"logo"} src={"./Logo.png"} alt={"Logo"}/>
-                    <div className={"navbar"}>
-                        <text className={"nav-buttons"}>Home</text>
-                        <text className={"nav-buttons"}>About</text>
-                        <text className={"nav-buttons"}>Team</text>
-                        <text className={"nav-buttons"}>FAQ</text>
-                        <text className={"nav-buttons"}>Contact</text>
+                <div className={"window-container"} style={{
+                    backgroundColor: "#F7F2F3",
+                }}>
+                    <div>
+                        <img className={"logo"} src={"./static/images/Logo.png"} alt={"Logo"}/>
+                        <div className={"navbar"}>
+                            <text className={"nav-buttons"}>Home</text>
+                            <text className={"nav-buttons"}>About</text>
+                            <text className={"nav-buttons"}>Team</text>
+                            <text className={"nav-buttons"}>FAQ</text>
+                            <text className={"nav-buttons"}>Contact</text>
+                        </div>
                     </div>
-                    <header>hi</header>
+                    <div style={{
+                        backgroundColor: "rgba(30, 30, 30, 0.2)",
+                        width: "100%",
+                        height: "inherit",
+                    }}>
+                        <img src={"./static/images/LetterWriting.jpg"} alt={"Background Image"} style={{
+                            opacity: 0.35,
+                            width: "100%",
+                        }}/>
+                    </div>
 
                 </div>
             }

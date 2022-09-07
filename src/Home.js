@@ -22,7 +22,7 @@ function Home() {
                         alignItems: "center",
                         justifyContent: "center"
                     }}>
-                        <img src={"./SeniorPal-Website/Logo.png"} alt={"Logo"} style={{
+                        <img src={"./Logo.png"} alt={"Logo"} style={{
                             height: "75vh",
                             width: "75vh",
                             paddingTop: "5%",

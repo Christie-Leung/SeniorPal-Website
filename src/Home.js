@@ -4,7 +4,7 @@ import {isMobile} from "react-device-detect";
 import Navbar from "./Navbar";
 
 function Home() {
-    const inDev = true;
+    const inDev = false;
 
     if (isMobile) {
         return (
@@ -116,7 +116,7 @@ function Home() {
                 <div className={"window-container"} style={{
                     backgroundColor: "#F7F2F3",
                 }}>
-                    <Navbar/>
+                    <Navbar position={"home"}/>
                     <div style={{
                         position: "relative",
                         width: "100%",

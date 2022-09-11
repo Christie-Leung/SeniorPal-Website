@@ -7,7 +7,7 @@ export default function Faq() {
             <div className={"window-container"} style={{
                     backgroundColor: "#F7F2F3",
             }}>
-                <Navbar/>
+                <Navbar position={"faq"}/>
             </div>
         </>
     )

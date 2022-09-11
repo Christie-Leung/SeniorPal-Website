@@ -7,7 +7,7 @@ export default function Contact() {
             <div className={"window-container"} style={{
                     backgroundColor: "#F7F2F3",
             }}>
-                <Navbar/>
+                <Navbar position={"contact"}/>
             </div>
         </>
     )

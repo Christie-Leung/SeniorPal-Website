@@ -1,7 +1,7 @@
 //import {useState} from "react";
-import {Link} from "react-router-dom";
 import './Home.css'
 import {isMobile} from "react-device-detect";
+import Navbar from "./Navbar";
 
 function Home() {
     const inDev = true;
@@ -116,26 +116,37 @@ function Home() {
                 <div className={"window-container"} style={{
                     backgroundColor: "#F7F2F3",
                 }}>
-                    <div>
-                        <img className={"logo"} src={"./static/images/Logo.png"} alt={"Logo"}/>
-                        <div className={"navbar"}>
-                            <text className={"nav-buttons"}>Home</text>
-                            <text className={"nav-buttons"}>About</text>
-                            <text className={"nav-buttons"}>Team</text>
-                            <text className={"nav-buttons"}>FAQ</text>
-                            <text className={"nav-buttons"}>Contact</text>
+                    <Navbar/>
+                    <div style={{
+                        position: "relative",
+                        width: "100%",
+                        height: "100%",
+                    }}>
+                        <div style={{
+                            backgroundColor: "rgba(30, 30, 30, 0.2)",
+                            width: "100%",
+                            height: "inherit",
+                            position: "absolute",
+                        }}>
+                            <img src={"./static/images/LetterWriting.jpg"} alt={"Background"} style={{
+                                opacity: 0.35,
+                                width: "100%",
+                            }}/>
+                        </div>
+                        <div style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            width: "100%",
+                            height: "85%",
+                            position: "absolute",
+                            alignItems: "center",
+                            placeContent: "center",
+                        }}>
+                            <text className={"title"}>Senior Pal</text>
+                            <text className={"description"}>A kind way to send a virtual HUG - Heartfelt, Unique, and Generous.</text>
                         </div>
                     </div>
-                    <div style={{
-                        backgroundColor: "rgba(30, 30, 30, 0.2)",
-                        width: "100%",
-                        height: "inherit",
-                    }}>
-                        <img src={"./static/images/LetterWriting.jpg"} alt={"Background Image"} style={{
-                            opacity: 0.35,
-                            width: "100%",
-                        }}/>
-                    </div>
+
 
                 </div>
             }

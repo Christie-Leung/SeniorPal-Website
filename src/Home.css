@@ -3,40 +3,98 @@ div {
     left: 0;
     border: 0;
     padding: 0;
+    margin: 0;
+}
+
+a, button {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
 }
 
 .window-container {
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     left: 0;
     top: 0;
 }
 
 .navbar {
-    position: absolute;
+    position: relative;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 2%;
     gap: 5%;
-    width: 100%;
-    height: fit-content;
+    width: 75%;
+    height: 75%;
 }
 
-.nav-buttons {
+.nav-active-text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: max(1.3vw, 2.4vh);
     line-height: 24px;
     letter-spacing: 0.345em;
+    background-color: unset;
+    color: rgba(0, 0, 0, 0.7);
+    border: 0;
+}
 
-   color: rgba(0, 0, 0, 0.51);
+.nav-text-buttons {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: max(1.3vw, 2.4vh);
+    line-height: 24px;
+    letter-spacing: 0.345em;
+    background-color: unset;
+    color: rgba(0, 0, 0, 0.51);
+    border: 0;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-text-buttons:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.nav-active-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    width: 100%;
+    height: 100%;
+    background: #FFFDFD;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+    border-radius: 17.5px;
 }
 
 .logo {
     width: 3vw;
     padding: 1%;
+}
+
+.title {
+    font-size: max(4.6vw, 6vh);
+    font-family: 'Brittany Signature', sans-serif;
+}
+
+
+@font-face {font-family: "Aleo"; src: url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.eot"); src: url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.woff") format("woff"), url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.svg#Aleo") format("svg"); }
+
+
+.description {
+    font-size: max(2.3vw, 4vh);
+    font-family: "Aleo", sans-serif;
 }

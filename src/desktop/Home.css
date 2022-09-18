@@ -1,0 +1,148 @@
+@font-face {font-family: "Aleo"; src: url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.eot"); src: url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.woff") format("woff"), url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/19f02cb0633201c896fbe4a1900afc43.svg#Aleo") format("svg"); }
+
+/* rubik-regular - latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../public/fonts/rubik/rubik-v21-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../../public/fonts/rubik/rubik-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../public/fonts/rubik/rubik-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../public/fonts/rubik/rubik-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../public/fonts/rubik/rubik-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../public/fonts/rubik/rubik-v21-latin-regular.svg#Rubik') format('svg'); /* Legacy iOS */
+}
+
+
+
+div {
+    top: 0;
+    left: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a, button {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.window-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 60%;
+    height: 55%;
+}
+
+.nav-active-text {
+    font-family: "Aleo", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: max(1.3vw, 2.4vh);
+    line-height: 24px;
+    letter-spacing: 0.345em;
+    background-color: unset;
+    color: rgba(0, 0, 0, 0.7);
+    border: 0;
+}
+
+.nav-text-buttons {
+    font-family: "Aleo", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: max(1.3vw, 2.4vh);
+    line-height: 24px;
+    letter-spacing: 0.345em;
+    background-color: unset;
+    color: rgba(0, 0, 0, 0.6);
+    border: 0;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-text-buttons:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.nav-active-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    width: 100%;
+    height: 100%;
+    background: #FFFDFD;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+    border-radius: 17.5px;
+}
+
+.logo {
+    z-index: 1;
+    width: 3vw;
+    height: 3vw;
+    padding: 0.5% 1%;
+}
+
+.title {
+    font-size: max(4.6vw, 6vh);
+    font-family: 'Brittany Signature', sans-serif;
+    color: #121212;
+}
+
+.description {
+    font-size: max(2.3vw, 4vh);
+    font-family: "Aleo", sans-serif;
+    color: #121212;
+}
+
+h1 {
+    font-size: max(4vw, 5.8vh);
+    font-family: 'Brittany Signature', sans-serif;
+    color: #121212;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: max(1.3vw, 2.4vh);
+    line-height: 4vh;
+    letter-spacing: 0.025em;
+    font-family: "Inter", sans-serif;
+    color: #121212;
+}
+
+.whoAreWe {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    position: relative;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    background: linear-gradient(0deg, #75736D 0%, #C2BBB8 96.69%);
+}

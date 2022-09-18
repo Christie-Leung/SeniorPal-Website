@@ -8,11 +8,11 @@ export default function Team() {
             <div className={"window-container"} style={{
                 backgroundColor: "#F7F2F3",
             }}>
-                <Navbar  position={"team"}/>
+                <Navbar position={"team"}/>
                 <div style={{
                     position: "relative",
                         width: "100%",
-                        height: "100%",
+                        height: "116%",
                 }}>
                     <div style={{
                         display: "flex",

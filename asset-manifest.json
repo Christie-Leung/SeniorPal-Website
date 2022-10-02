@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.383db434.css",
-    "main.js": "/static/js/main.b2a35c9b.js",
+    "main.css": "/static/css/main.39ec9b69.css",
+    "main.js": "/static/js/main.d4ca5073.js",
     "static/js/787.59bff619.chunk.js": "/static/js/787.59bff619.chunk.js",
+    "static/media/rubik-v21-latin-regular.svg": "/static/media/rubik-v21-latin-regular.a1bacd2fffd70f6ee2aa.svg",
+    "static/media/rubik-v21-latin-regular.ttf": "/static/media/rubik-v21-latin-regular.a822f18cd7032d92a40d.ttf",
+    "static/media/rubik-v21-latin-regular.woff": "/static/media/rubik-v21-latin-regular.9901e43e1f0fad0eadaf.woff",
+    "static/media/rubik-v21-latin-regular.eot": "/static/media/rubik-v21-latin-regular.44fb3948e9aab727b131.eot",
+    "static/media/rubik-v21-latin-regular.woff2": "/static/media/rubik-v21-latin-regular.0aa051ce9b99dbd1dd88.woff2",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.383db434.css.map": "/static/css/main.383db434.css.map",
-    "main.b2a35c9b.js.map": "/static/js/main.b2a35c9b.js.map",
+    "main.39ec9b69.css.map": "/static/css/main.39ec9b69.css.map",
+    "main.d4ca5073.js.map": "/static/js/main.d4ca5073.js.map",
     "787.59bff619.chunk.js.map": "/static/js/787.59bff619.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.383db434.css",
-    "static/js/main.b2a35c9b.js"
+    "static/css/main.39ec9b69.css",
+    "static/js/main.d4ca5073.js"
   ]
 }
